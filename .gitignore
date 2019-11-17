@@ -1,0 +1,4 @@
+external/
+gen*
+.vscode
+build
