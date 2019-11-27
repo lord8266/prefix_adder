@@ -1,7 +1,7 @@
 all:compile wave
 
 compile:dir
-	iverilog *.v -o build/prefix_adder
+	iverilog tb_add.v modules.v -o build/prefix_adder
 	vvp build/prefix_adder
 
 wave:

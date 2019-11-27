@@ -2,3 +2,5 @@ external/
 gen*
 .vscode
 build
+temp.v
+temp2.v
